@@ -8,13 +8,13 @@ express parties use. Sure last upon he same as
 knew next. Of believed or diverted no.”`
   },
   {
-    picture: './assets/profile_picture.png',
+    picture: './assets/dayana.png',
     fullname: 'Dayana Huaytalla',
     location: 'París, Francia',
     testimony: `“Un muy buen trabajo!”`
   },
   {
-    picture: './assets/profile_picture.png',
+    picture: './assets/jose.png',
     fullname: 'Jose Carneiro',
     location: 'Lima, Perú',
     testimony: `“Muy contento con los resultados!”`
@@ -47,8 +47,12 @@ navUp.onclick = e => {
 
 navDown.onclick = e => {
   e.preventDefault();
-  index++;
-  getSlides(index);
+  if (index < persons.length - 1) {
+    index++;
+    getSlides(index);
+  }
+
+
 }
 
 link1.onclick = e => {
@@ -85,7 +89,7 @@ const changeSlideOpacity = id => {
   titles.forEach(title => {
     title.style.opacity = 0;
   });
-  
+
   title.style.opacity = 1;
 }
 

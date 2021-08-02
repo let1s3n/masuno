@@ -1,0 +1,548 @@
+@font-face {
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/assets/fonts/GoogleSans-Regular.ttf);
+}
+@font-face {
+  font-family: "Google Sans";
+  font-style: normal;
+  font-weight: 500;
+  src: url(/assets/fonts/GoogleSans-Medium.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.subscription-section__title, .testimonials-section__title, .booking-section__title, .destinations-section__title, .services-section__title {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Volkhov";
+  line-height: 64.5px;
+}
+
+.subscription-section__subtitle, .testimonials-section__subtitle, .booking-section__subtitle, .destinations-section__subtitle, .services-section__subtitle {
+  font-size: 18px;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+}
+
+.main-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 90%;
+  margin: 47px auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav {
+  display: flex;
+  margin-bottom: 18px;
+  justify-content: space-between;
+  color: #212832;
+  font-family: "Google Sans";
+  font-weight: 500;
+}
+.nav__brand-logo {
+  flex: 30%;
+}
+.nav__list {
+  display: flex;
+  flex: 70%;
+  justify-content: space-between;
+}
+.nav__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  height: 764px;
+  margin-bottom: 97px;
+}
+.hero-section__decore-image {
+  position: absolute;
+  width: 766.31px;
+  height: 872.58px;
+  left: 760px;
+  top: -50px;
+  z-index: -1;
+}
+.hero-section__decore-image img {
+  width: 100%;
+  height: auto;
+}
+.hero-section__content {
+  width: 630px;
+}
+.hero-section__image {
+  background: url(./assets/Traveller.png);
+  width: 765px;
+  height: 764px;
+  position: absolute;
+  left: 600px;
+  top: 105px;
+}
+.hero-section__title {
+  position: relative;
+  font-size: 84px;
+  font-family: "Volkhov", serif;
+  line-height: 89px;
+  letter-spacing: -0.04em;
+  color: #181E4B;
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
+.hero-section__title .hero-section__decore-image {
+  position: absolute;
+  top: 70px;
+  right: 0;
+  left: unset;
+  width: 385px;
+  height: 12px;
+}
+.hero-section__subtitle {
+  font-family: "Volkhov", serif;
+  color: #DF6951;
+  line-height: 30px;
+  font-size: 1.25em;
+}
+.hero-section__paragraph {
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 30px;
+  color: #5E6282;
+  margin-bottom: 34px;
+}
+.hero-section__span {
+  font-family: "Poppins";
+  color: #686D77;
+  font-size: 1.0625em;
+  font-weight: 500;
+  line-height: 25.5px;
+}
+.hero-section__btn.btn--yellow {
+  font-size: 18px;
+  line-height: 22.9px;
+  margin-right: 44px;
+  border-radius: 10px;
+}
+.hero-section__btn.btn--red {
+  margin-right: 21px;
+}
+
+.services-section {
+  position: relative;
+  margin-bottom: 123px;
+}
+.services-section__cards {
+  margin-top: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.services-section__cards .card {
+  width: 190px;
+  height: 227px;
+}
+.services-section__cards .card__image {
+  width: 92px;
+  height: 78px;
+  margin: 0 auto 29px auto;
+}
+.services-section__cards .card__image img {
+  width: 100%;
+  height: auto;
+}
+.services-section__cards .card:nth-child(2) {
+  position: relative;
+  width: 267px;
+  height: 314px;
+  background: #FFFFFF;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  border-radius: 36px;
+}
+.services-section__cards .card:nth-child(2) .card__image {
+  width: 166.87px;
+  height: 153.33px;
+  margin-bottom: 0px;
+}
+.services-section__cards .card__decore-image {
+  position: absolute;
+  bottom: -35px;
+  left: -35px;
+  z-index: -1;
+}
+.services-section__cards .card__title {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #1E1D4C;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.services-section__cards .card__paragraph {
+  text-align: center;
+  color: #5E6282;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+.services-section__decore-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.destinations-section {
+  margin-bottom: 186px;
+}
+.destinations-section__cards {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.destinations-section__cards .card {
+  width: 314px;
+  height: 457px;
+  border-radius: 24px;
+  filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+}
+.destinations-section__cards .card__image {
+  width: 314px;
+  height: 327px;
+  height: 327px;
+}
+.destinations-section__cards .card__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: 24px 24px 0 0;
+}
+.destinations-section__cards .card:nth-child(3) img {
+  object-position: 100% 50%;
+}
+.destinations-section__cards .card__content {
+  border-radius: 0 0 24px 24px;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 19.92px;
+}
+.destinations-section__cards .card__content .card-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 27px;
+  margin-bottom: 19px;
+  line-height: 22.41px;
+  font-size: 1, 125em;
+}
+.destinations-section__cards .card__content img {
+  margin-right: 15.88px;
+  vertical-align: bottom;
+}
+
+.booking-section {
+  margin-bottom: 200px;
+  display: flex;
+}
+.booking-section__subtitle {
+  text-align: left;
+}
+.booking-section__title {
+  text-align: left;
+  margin-bottom: 31px;
+}
+.booking-section__content {
+  flex: 70%;
+}
+.booking-section__image {
+  flex: 50%;
+  position: relative;
+}
+.booking-section__image img {
+  position: absolute;
+  top: -35px;
+}
+.booking-section__steps .step {
+  display: flex;
+  margin-bottom: 48px;
+  align-items: flex-start;
+}
+.booking-section__steps .step img {
+  padding-top: 8px;
+}
+.booking-section__steps .step div {
+  margin-left: 21px;
+  font-family: "Poppins";
+  color: #5E6282;
+  padding: 0px 10px;
+}
+.booking-section__steps .step div h4 {
+  font-weight: 700;
+}
+.booking-section__steps .step div p {
+  font-weight: 400;
+}
+
+.testimonials-section {
+  display: flex;
+  margin-bottom: 96px;
+}
+.testimonials-section__subtitle {
+  text-align: left;
+}
+.testimonials-section__title {
+  text-align: left;
+  margin-bottom: 31px;
+}
+.testimonials-section__content {
+  flex: 40%;
+}
+.testimonials-section__content .slider {
+  width: 409px;
+  height: 130px;
+  position: relative;
+}
+.testimonials-section__content .slider .title {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  transition: opacity 0.5s;
+  background-color: #fff;
+}
+.testimonials-section__content .slider .title:first-child {
+  opacity: 1;
+}
+.testimonials-section__content .menu {
+  margin-top: 82px;
+}
+.testimonials-section__cards {
+  flex: 40%;
+}
+.testimonials-section__cards .slider {
+  width: 669px;
+  height: 356px;
+  position: relative;
+}
+.testimonials-section__cards .slider .slide {
+  width: 504px;
+  height: 245px;
+}
+.testimonials-section__cards .slider #current-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #FFF;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  border-radius: 10px;
+}
+.testimonials-section__cards .slider #next-slide {
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  z-index: -1;
+  border: 2px solid #F7F7F7;
+  filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+  border-radius: 10px;
+}
+.testimonials-section__cards .slider .card {
+  font-family: "Poppins";
+}
+.testimonials-section__cards .slider .card .profile-picture {
+  position: absolute;
+  top: -34px;
+  left: -34px;
+}
+.testimonials-section__cards .slider .card .testimony {
+  margin: 28px 68px 34px 34px;
+  font-weight: 500;
+  line-height: 32px;
+  width: 402px;
+  height: 96px;
+}
+.testimonials-section__cards .slider .card .fullname {
+  margin: 34px 34px 5px 34px;
+  font-weight: 600;
+  line-height: 27px;
+  font-size: 1, 125em;
+}
+.testimonials-section__cards .slider .card .location {
+  margin: 5px 34px 34px 34px;
+  font-weight: 500;
+  line-height: 21px;
+  font-size: 0.875em;
+}
+.testimonials-section > .menu {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+.testimonials-section > .menu #nav-up {
+  margin-bottom: 57.5px;
+}
+.testimonials-section .menu li {
+  display: inline-block;
+  text-align: center;
+}
+.testimonials-section .menu li a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.airlines-section {
+  margin-bottom: 149px;
+}
+.airlines-section__cards {
+  display: flex;
+  justify-content: space-between;
+  height: 162px;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.airlines-section__cards .card {
+  flex-basis: 170px;
+  height: 60%;
+}
+.airlines-section__cards .card img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0.2;
+}
+.airlines-section__cards .card img:hover {
+  opacity: 1;
+}
+
+.subscription-section {
+  position: relative;
+  overflow: hidden;
+  height: 407px;
+  background: rgba(223, 215, 249, 0.2);
+  border-radius: 129px 20px 20px 20px;
+}
+.subscription-section__subtitle {
+  color: #5E6282;
+  padding-top: 79px;
+  font-size: 2.0625em;
+  line-height: 54px;
+  margin-bottom: 74px;
+}
+.subscription-section__subscribe-form {
+  width: 859px;
+  margin: 0 auto;
+  text-align: center;
+}
+.subscription-section__subscribe-form #emailLabel {
+  position: relative;
+}
+.subscription-section__subscribe-form #emailLabel:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 21px;
+  height: 18px;
+  background-image: url("data:image/svg+xml,%3Csvg width='21' height='18' viewBox='0 0 21 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 6L9.4 10.05C9.75556 10.3167 10.2444 10.3167 10.6 10.05L16 6' stroke='%2339425D' stroke-linecap='round'/%3E%3Crect x='0.5' y='0.5' width='20' height='17' rx='4.5' stroke='%2339425D'/%3E%3C/svg%3E");
+}
+.subscription-section__subscribe-form #emailInput {
+  width: 421px;
+  height: 68px;
+  margin-right: 24px;
+  padding: 10px 44px;
+  font-family: "Montserrat", sans-serif;
+  color: #39425D;
+  font-size: 0.875;
+  line-height: 17.07px;
+  border-radius: 10px;
+  border: none;
+}
+.subscription-section__subscribe-form button {
+  width: 180px;
+  height: 68px;
+  background: linear-gradient(180deg, #FF946D 0%, #FF7D68 100%);
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600px;
+  font-size: 17px;
+  line-height: 23.15px;
+  color: #FFFFFF;
+  border: none;
+}
+.subscription-section__decore--top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0.1;
+  z-index: -1;
+}
+.subscription-section__decore--bottom-left {
+  position: absolute;
+  width: 389.45px;
+  height: 397.19px;
+  bottom: -65px;
+  left: 55px;
+  opacity: 0.1;
+  z-index: -1;
+}
+.subscription-section__decore--bottom-right {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+}
+
+.btn {
+  border: none;
+  padding: 19px 27px;
+  color: #FFFFFF;
+  font-family: "Google Sans";
+  font-weight: 500;
+  text-align: center;
+}
+
+.btn--yellow {
+  background-color: #F1A501;
+}
+
+.btn--red {
+  background-color: #DF6951;
+}
+
+.btn--round {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  padding: 20px 18px 17px 19px;
+}
+
+.center {
+  text-align: center;
+}
+
+.multiline {
+  white-space: pre-wrap;
+}
+
+/*# sourceMappingURL=styles.css.map */
